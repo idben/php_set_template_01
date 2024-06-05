@@ -11,7 +11,7 @@
 2. 導覽列檔案是`template_nav.php`，放相對的 HTML 標籤及 CSS
 3. 將需要共用的變數放在`vars.php`
 5. 組合版型時依下列順序
-    1. 載入變數`vars.php`
+  1. 載入變數`vars.php`
     2. 判別用變數設定
   3. 載入變數`template_top.php`
   4. 載入變數`template_nav.php`
