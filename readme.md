@@ -11,14 +11,18 @@
 2. 導覽列檔案是`template_nav.php`，放相對的 HTML 標籤及 CSS
 3. 將需要共用的變數放在`vars.php`
 5. 組合版型時依下列順序
-  1. 載入變數`vars.php`
+    1. 載入變數`vars.php`
     2. 判別用變數設定
-  3. 載入變數`template_top.php`
-  4. 載入變數`template_nav.php`
-  5. 各分類頁面各自不同的內容
-  6. 載入變數`template_btm.php`
+    3. 載入變數`template_top.php`
+    4. 載入變數`template_nav.php`
+    5. 各分類頁面各自不同的內容
+    6. 載入變數`template_btm.php`
+
+## 導覽列
+1. 依照分類判別用變數來判斷要不要加`btn-danger`，變成紅色按鈕
+2. 依照分類判別用變數來判斷是不是在首頁還是在分類中，修改路徑為`./`或`../`
 
 
-
-
-10. [線上範例](https://sagedaben.com/iSpan/php/set_template_01/)
+## 其他
+1. [線上範例](https://sagedaben.com/iSpan/php/set_template_01/)
+2. 點個星星讓老師知道有來過
