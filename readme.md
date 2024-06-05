@@ -23,6 +23,12 @@
 1. 依照分類判別用變數來判斷要不要加`btn-danger`，變成紅色按鈕
 2. 依照分類判別用變數來判斷是不是在首頁還是在分類中，修改路徑為`./`或`../`
 
+## Modal
+1. 樣版中有個 modal1
+2. 分類 1 中有一個 modal2
+3. 分類 1 中有兩個按鈕開這兩個按鈕
+4. 所以 Bootstrap 組件 `tooltips` 和 `Popovers` 以外的，不需要額外啟動，也不需要在 js 載入時就畫好 DOM
+
 
 ## 其他
 1. [線上範例](https://sagedaben.com/iSpan/php/set_template_01/)
