@@ -18,6 +18,7 @@
     5. 各分類頁面各自不同的內容
     6. 載入變數`template_btm.php`
 5. 在分類的資料夾中的`index.php`，載入的檔案要加上`../`
+6. 如果有 css 檔或 js 檔，會需要在樣版的`head`或`body`的最後載入，可以用變數`$cssList`和`$jsList`以陣列型態記錄，詳見`cate/index.php`
 
 ## 導覽列
 1. 依照分類判別用變數來判斷要不要加`btn-danger`，變成紅色按鈕

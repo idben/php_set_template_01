@@ -1,0 +1,14 @@
+.myBtn {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #c408ce;
+  color: #fff;
+  user-select: none;
+  cursor: pointer;
+  &:hover{
+    background-color: #d73ddf;
+  }
+}
